@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+   overflow: hidden;
+   background: green;
+    
+}
+.container{
+    position: absolute;
+    width: 100%;
+    background: black;
+    
+    height: 100%;
+    box-shadow: 0 0 0 5px gold;
+    clip-path: polygon(78% 0,100% 0,100% 29%,29% 100%,0 100%,0 80%);
+    
+}
+.content{
+    position: absolute;
+    color: green;
+    background: honeydew;
+    padding: 40px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.content h1 ,.content h3 ,.content p {
+    padding: 20px;
+} 
+.content #start{
+    font-size: 30px;
+    background: greenyellow;
+    margin-left: 80%;
+}
+.ins{
+    background: whitesmoke;
+    color: green;
+    position: absolute;
+    width: 30%;
+    font-size: 20px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+}
+.ins h1,.ins p{
+    padding: 10px;
+}
+.ins .btn{
+    margin-left: 300px;
+}
+.ins button{
+    font-size: 20px;
+    background: greenyellow;
+    
+    
+}
+#quizz-box{
+    background: white;
+    width: 600px;
+    height: 400px;
+    padding-left: 40px;
+    box-shadow: 0 0 5px 0 greenyellow;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,30%);
+    visibility: hidden;
+    
+    
+}
+.card{
+    color: green;
+    position: relative;
+}
+.card p {
+    font-size: 30px;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+.card p:hover{
+    border: 1px solid #d3d3d3;
+    background: greenyellow;
+    color: hotpink;
+    border-radius: 30px;
+}
+#loading-box{
+    visibility: hidden;
+}
+#loading-box #load-btn{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: greenyellow;
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    
+}
+#quizz-box #ans {
+    visibility: hidden;
+}
+#loading-box #submit{
+    font-size: 20px;
+    background: greenyellow;
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.answer{
+    visibility: hidden;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    color: green;
+
+}
+.answer h1{
+    padding: 20px;
+}
+.answer h1:nth-child(3){
+    text-align: center;
+}
